@@ -4,7 +4,13 @@
 #include <iostream>
 
 int main()
+
 {
+
+	//int bigBoyArray[100'000'000]; //stack overflow!
+
+
+	system("pause");
 	while (true)
 	{
 		int* ptr = new int;  //the worst possible "memory leak" 
@@ -14,7 +20,7 @@ int main()
 
 		//std::cout << ptr << "\n";
 
-		delete ptr; 
+		delete ptr; //memory leak if commented out!
 
 	}
 }
