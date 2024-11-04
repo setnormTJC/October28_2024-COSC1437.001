@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demoing new operator", "Dem
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "October30-pointers to class objects and polymorphism", "October30-pointers to class objects and polymorphism\October30-pointers to class objects and polymorphism.vcxproj", "{2BCA8738-4AA3-41CA-8A10-51F7378CC64D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "One student submission of own hierarchy", "ConsoleApplication1\ConsoleApplication1.vcxproj", "{CF4CCDB0-286E-43EA-AD9F-A0C0FA935F76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Nov4-morePolymorphism-AndAbstractClasses", "Nov4-morePolymorphism-AndAbstractClasses\Nov4-morePolymorphism-AndAbstractClasses.vcxproj", "{E6DE96E0-1D24-45DE-867D-CAE69905E028}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +45,22 @@ Global
 		{2BCA8738-4AA3-41CA-8A10-51F7378CC64D}.Release|x64.Build.0 = Release|x64
 		{2BCA8738-4AA3-41CA-8A10-51F7378CC64D}.Release|x86.ActiveCfg = Release|Win32
 		{2BCA8738-4AA3-41CA-8A10-51F7378CC64D}.Release|x86.Build.0 = Release|Win32
+		{CF4CCDB0-286E-43EA-AD9F-A0C0FA935F76}.Debug|x64.ActiveCfg = Debug|x64
+		{CF4CCDB0-286E-43EA-AD9F-A0C0FA935F76}.Debug|x64.Build.0 = Debug|x64
+		{CF4CCDB0-286E-43EA-AD9F-A0C0FA935F76}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF4CCDB0-286E-43EA-AD9F-A0C0FA935F76}.Debug|x86.Build.0 = Debug|Win32
+		{CF4CCDB0-286E-43EA-AD9F-A0C0FA935F76}.Release|x64.ActiveCfg = Release|x64
+		{CF4CCDB0-286E-43EA-AD9F-A0C0FA935F76}.Release|x64.Build.0 = Release|x64
+		{CF4CCDB0-286E-43EA-AD9F-A0C0FA935F76}.Release|x86.ActiveCfg = Release|Win32
+		{CF4CCDB0-286E-43EA-AD9F-A0C0FA935F76}.Release|x86.Build.0 = Release|Win32
+		{E6DE96E0-1D24-45DE-867D-CAE69905E028}.Debug|x64.ActiveCfg = Debug|x64
+		{E6DE96E0-1D24-45DE-867D-CAE69905E028}.Debug|x64.Build.0 = Debug|x64
+		{E6DE96E0-1D24-45DE-867D-CAE69905E028}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6DE96E0-1D24-45DE-867D-CAE69905E028}.Debug|x86.Build.0 = Debug|Win32
+		{E6DE96E0-1D24-45DE-867D-CAE69905E028}.Release|x64.ActiveCfg = Release|x64
+		{E6DE96E0-1D24-45DE-867D-CAE69905E028}.Release|x64.Build.0 = Release|x64
+		{E6DE96E0-1D24-45DE-867D-CAE69905E028}.Release|x86.ActiveCfg = Release|Win32
+		{E6DE96E0-1D24-45DE-867D-CAE69905E028}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

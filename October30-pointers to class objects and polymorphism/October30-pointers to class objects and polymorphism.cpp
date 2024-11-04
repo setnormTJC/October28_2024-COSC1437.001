@@ -74,7 +74,7 @@ public:
             SW_SHOWDEFAULT);
     }
 
-    void makeSoundWithMouth() override //override is optional but recommended here 
+    void makeSoundWithMouth() //override //override is optional but recommended here 
     {
         system("wildcat-ratatat.m4a");
     }
@@ -85,7 +85,7 @@ void callEatFunction(Animal* a)
 
 }
 
-void callMakeSoundWithMouth(Animal* a)
+void callMakeSoundWithMouth(Animal* a) //is this stupid? 
 {
     a->makeSoundWithMouth(); 
 }
@@ -98,6 +98,8 @@ int main()
 
     Animal* ptrToSomeAnimal = &someAnimal;
 
+    //callMakeSoundWithMouth(ptrToSomeAnimal); 
+
     //cout << "Amount of BYTES taken up by Animal object: " << sizeof(someAnimal) << "\n";
     //cout << "Amount of BYTES taken up by Animal object: " << sizeof(ptrToSomeAnimal) << "\n";
 
@@ -108,9 +110,15 @@ int main()
    
     //callMakeSoundWithMouth(ptrToSomeAnimal); 
     
-    WILDcat* ptrToWildCat = &someWildCat;
+    WILDcat* ptrToWildCat = &someWildCat; //static memory allocation (on "the stack" ) 
 
-    callMakeSoundWithMouth(ptrToWildCat);
+
+    WILDcat* newWildCatPtr = new WILDcat; //dynamic memory allocation
+
+    callMakeSoundWithMouth(newWildCatPtr);
+
+
+    //callMakeSoundWithMouth(ptrToWildCat);
 
 
     //(*ptrToSomeOTHERdog).eat(); //this is an ALTERNATIVE to the arrow operator  
